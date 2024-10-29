@@ -11,7 +11,7 @@ export default function Hero(){
       </h1>
 
       <Image 
-                src="her.jpg"
+                src="mi.png"
                 alt="MAHEEN IMTIAZ"
                 width={1000}
                 height={10}
