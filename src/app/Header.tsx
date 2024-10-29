@@ -16,7 +16,9 @@ export default function Header() {
                      <Image
                         src="/mi.png"
                         alt="MAHI avatar logo"
-                        className="rounded-full">
+                        className="rounded-full"
+                        width={20}
+                        height={20}>
                         </Image>
                       <span className="absolute bottom-0 right-0 w-2 h-2 bg-green-400 rounded-full border-2 border-white"></span>
                     </div>
