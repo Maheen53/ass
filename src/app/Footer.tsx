@@ -14,7 +14,7 @@ export default function Footer() {
         <li>Privacy Policy</li>
       </ul>
       <br />
-      <h1 className='text-center text-white'>© 2024, copyrights @ mahi</h1>
+      <h1 className='text-center text-white'>2024, copyrights @ mahi</h1>
     </div>
     <ul className="flex justify-center gap-x-4">
     <li className="inline-flex items-center bg-green-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-black rounded text-base"> <Link href ="https://web.whatsapp.com/">WATSAPP"</Link></li>

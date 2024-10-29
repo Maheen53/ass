@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
     return (
@@ -12,11 +13,11 @@ export default function Header() {
                 <div className="flex space-x-4">
                   <div className="avatar">
                     <div className="w-12 rounded-full relative">
-                      <img
+                     <Image
                         src="/mi.png"
                         alt="MAHI avatar logo"
-                        className="rounded-full"
-                      />
+                        className="rounded-full">
+                        </Image>
                       <span className="absolute bottom-0 right-0 w-2 h-2 bg-green-400 rounded-full border-2 border-white"></span>
                     </div>
                   </div>

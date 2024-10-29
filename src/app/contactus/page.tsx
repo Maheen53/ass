@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function Contactus(){
     return(
       <main className='bg-cover bg-center h-screen' style={{backgroundImage: "url('/images/bg.jpg')"}}
@@ -8,13 +9,14 @@ export default function Contactus(){
 
     <h1 className="text-xl mb-6 w-screen">
       <div className="w-screen">
-    <img 
+ <Image
                 src="/contact.jpg"
                 alt="MAHEEN IMTIAZ"
                 width={1000}
                 height={2}
                 className="w-full"
-              />
+              >
+                </Image>
               </div>
               </h1>
 

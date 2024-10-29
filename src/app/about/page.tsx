@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Home(){
 
 
@@ -20,12 +21,14 @@ export default function Home(){
               </p>
 
             </div>
-            <img
+           <Image
                 src="/about.avif"
                 alt="MAHEEN IMTIAZ"
                 width={10000}
                 height={10}
-                className="rounded-lg shadow-lg" />
+                className="rounded-lg shadow-lg"
+                 >
+                  </Image>
 
            
                 </div>
